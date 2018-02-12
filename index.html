@@ -7,61 +7,61 @@
 
 <form action="http://kraigh.com/cse104/reviews.php" method="post">
 
-<fieldset>
-  <legend>User Info</legend>
-  
-  <label for="name">Name</label>
-  <input type="text" name="name" id="name" required="required"/>
+  <fieldset>
+    <legend>User Info</legend>
+    
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" required="required"/>
 
-  <label>Email: 
-    <input type="email" name="email" />
-  </label>
-</fieldset>
+    <label>Email: 
+      <input type="email" name="email" />
+    </label>
+  </fieldset>
 
-<fieldset>
-  <legend>Review</legend>
+  <fieldset>
+    <legend>Review</legend>
 
-  <label>Menu
-    <select name="menu">
-      <option name="steak" value="steak" selected="selected">Steak</option>
-      <option name="chicken" value="chicken">Chicken</option>
-      <option name="vegetarian" value="vegetarian">Vegetarian</option>
-    </select>
-  </label>
-  <br>
+    <label>Menu
+      <select name="menu">
+        <option name="steak" value="steak" selected="selected">Steak</option>
+        <option name="chicken" value="chicken">Chicken</option>
+        <option name="vegetarian" value="vegetarian">Vegetarian</option>
+      </select>
+    </label>
+    <br>
 
-  <label>Rating</label>
-  <label>1
-    <input type="radio" name="rating" value="1" checked="checked" />
-  </label>
-  <label>2
-    <input type="radio" name="rating" value="2" />
-  </label>
-  <label>3
-    <input type="radio" name="rating" value="3" />
-  </label>
-  <label>4
-    <input type="radio" name="rating" value="4" />
-  </label>
-  <label>5
-    <input type="radio" name="rating" value="5" />
-  </label>
+    <label>Rating</label>
+    <label>1
+      <input type="radio" name="rating" value="1" checked="checked" />
+    </label>
+    <label>2
+      <input type="radio" name="rating" value="2" />
+    </label>
+    <label>3
+      <input type="radio" name="rating" value="3" />
+    </label>
+    <label>4
+      <input type="radio" name="rating" value="4" />
+    </label>
+    <label>5
+      <input type="radio" name="rating" value="5" />
+    </label>
 
-  <br>
+    <br>
 
-  <label>Were you greeted?
-    Upon Entering <input type="checkbox" name="greeted[]" value="entered" />
-    Upon Exiting <input type="checkbox" name="greeted[]" value="exited" />
-  </label>
+    <label>Were you greeted?
+      Upon Entering <input type="checkbox" name="greeted" value="entered" />
+      Upon Exiting <input type="checkbox" name="greeted" value="exited" />
+    </label>
 
-  <br>
+    <br>
 
-  <label>Comments
-    <textarea name="comments"></textarea>
-  </label>
+    <label>Comments
+      <textarea name="comments"></textarea>
+    </label>
 
-</fieldset>
-<input type="submit" value="SUBMIT REVIEW">
+  </fieldset>
+  <input type="submit" value="SUBMIT REVIEW">
 </form>
 
 </body>
